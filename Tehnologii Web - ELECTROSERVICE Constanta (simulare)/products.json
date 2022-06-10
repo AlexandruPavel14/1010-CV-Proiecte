@@ -1,0 +1,57 @@
+[
+	{
+		"image": "images/01.jpg",
+		"title": "Placa de baza Asus",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "1500,99",
+		"href": "p3.html"
+	},
+	{
+		"image": "images/02.jpg",
+		"title": "Placa de baza AsRock",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "899,99"
+	},
+	{
+		"image": "images/03.jpg",
+		"title": "Placa de baza Gygabyte",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "1200,99"
+	},
+	{
+		"image": "images/04.jpg",
+		"title": "Procesor Intel I3",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "900,99"
+	},
+	{
+		"image": "images/05.jpg",
+		"title": "Procesor Intel I5",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "1500,99"
+	},
+	{
+		"image": "images/06.jpg",
+		"title": "Procesor Intel I7",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "2000,99"
+	},
+	{
+		"image": "images/04.jpg",
+		"title": "SSD 120GB",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "150,99"
+	},
+	{
+		"image": "images/05.jpg",
+		"title": "SSD 250GB",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "235,99"
+	},
+	{
+		"image": "images/06.jpg",
+		"title": "SSD 550GB",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"price": "356,99"
+	}
+]

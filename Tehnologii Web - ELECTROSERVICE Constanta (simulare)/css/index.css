@@ -1,0 +1,57 @@
+.navigation-button {
+  position: relative;
+  top: 5px;
+  width: 120px;
+  height: 40px;
+}
+
+@media (max-width: 600px) {
+  .navigation-button {
+    position: relative;
+    top: 5px;
+    width: 100px;
+    height: 40px;
+  }
+}
+#navigation {
+  text-align: center;
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+#logo {
+  position: relative;
+  border: 3px solid blue;
+}
+
+#div-logo {
+  position: relative;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+  border: 0px;
+}
+
+.linie-logo {
+  fill: purple;
+  stroke: red;
+  stroke-width: 2;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.centered-div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: grey;
+  margin: 0;
+}/*# sourceMappingURL=index.css.map */

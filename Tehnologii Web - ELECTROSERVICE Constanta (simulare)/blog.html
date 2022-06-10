@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reviews.css">
+</head>
+<body>
+    <div class="centered-div fundal-gray-600 container-reviews" id="tinta">
+        
+    </div>
+    <div class="container-buton-load centered-div fundal-gray-600">
+        <div id="div-colapsat" class="pozitie-loading-0w-0h imagine-loading"></div> 
+        <button onclick="incarcare()" class="buton-load gray-300">Load more</button>
+    </div>
+    <div id="sursa">
+        <div class="fundal-gray-800 container-review"> 
+            <div class="container-lateral">
+                <p class="titlu">Titlu</p>
+                <p class="descriere">Aceasta e o descriere mai lunga.</p>
+            </div>
+            <div class="imagine" id="pozitie_neasignata"></div>
+        </div>
+    </div>
+    <script src="./scripturi/utilitati.js"></script>
+    <script src="./scripturi/animatie-loading.js"></script>
+    <script src="./scripturi/review.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <script src="./scripturi/placeholder-bd.js"></script>
+    <script src="./scripturi/format-review.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+.fundal-gray-100 {
+  background-color: #f8f9fa;
+}
+
+.fundal-gray-200 {
+  background-color: #e9ecef;
+}
+
+.fundal-gray-300 {
+  background-color: #dee2e6;
+}
+
+.fundal-gray-400 {
+  background-color: #ced4da;
+}
+
+.fundal-gray-500 {
+  background-color: #adb5bd;
+}
+
+.fundal-gray-600 {
+  background-color: #6c757d;
+}
+
+.fundal-gray-700 {
+  background-color: #495057;
+}
+
+.fundal-gray-800 {
+  background-color: #343a40;
+}
+
+.fundal-gray-900 {
+  background-color: #212529;
+}
+
+#mesaj-trimis {
+  text-align: center;
+}
+
+#text-titlu {
+  font-size: 80px;
+  text-align: center;
+}
+
+.buton-1w-1h {
+  margin: 10px 0;
+  width: 400px;
+  height: 50px;
+}
+
+@media (max-width: 1100px) {
+  .buton-1w-1h {
+    width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .buton-1w-1h {
+    width: 150px;
+  }
+}
+.buton-1w-2h {
+  margin: 10px 0;
+  width: 400px;
+  height: 100px;
+}
+
+@media (max-width: 1100px) {
+  .buton-1w-2h {
+    width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .buton-1w-2h {
+    width: 150px;
+  }
+}
+.buton-2w-1h {
+  margin: 10px 0;
+  width: 855px;
+  height: 50px;
+}
+
+@media (max-width: 1100px) {
+  .buton-2w-1h {
+    width: 455px;
+  }
+}
+@media (max-width: 600px) {
+  .buton-2w-1h {
+    width: 327.5px;
+  }
+}
+.buton-2w-2h {
+  margin: 10px 0;
+  width: 855px;
+  height: 100px;
+}
+
+@media (max-width: 1100px) {
+  .buton-2w-2h {
+    width: 455px;
+  }
+}
+@media (max-width: 600px) {
+  .buton-2w-2h {
+    width: 327.5px;
+  }
+}
+.camp-spart {
+  width: 450px;
+  display: inline-block;
+  text-align: left;
+}
+
+.camp-simplu {
+  width: 900px;
+  display: inline-block;
+  text-align: left;
+}
+
+#container-central {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1100px) {
+  #container-central {
+    width: 600px;
+  }
+
+  .camp-simplu {
+    width: 500px;
+  }
+
+  .camp-spart {
+    width: 250px;
+  }
+}
+@media (max-width: 600px) {
+  #container-central {
+    width: 400px;
+  }
+
+  .camp-simplu {
+    width: 350px;
+  }
+
+  .camp-spart {
+    width: 175px;
+  }
+}
+.form-contact {
+  height: 94px;
+  text-align: center;
+}
+
+.buton-contact {
+  width: 100px;
+  height: 40px;
+  margin: 50px auto;
+}
+.logo{
+  text-align: center;
+  text-decoration: none;
+}

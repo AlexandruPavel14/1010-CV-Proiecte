@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/contact.css">
+
+</head>
+<body>
+<a href="index.html" class="logo"><h1>ELECTROSERVICE Constanta </h1></a>
+<div class="svg" style="text-align:center;">
+    <svg width="200" height="100">
+        <rect width="400" height="100" 
+        style="fill:rgb(0,0,255)" />
+      </svg>
+      <svg width="200" height="100">
+        <rect width="400" height="100" 
+        style="fill:rgb(225,225,0)" />
+      </svg>
+      <svg width="200" height="100">
+        <rect width="400" height="100" 
+        style="fill:rgb(255,0,0)" />
+      </svg>
+</div>
+    <p class="centered-text" id="text-titlu">Contact</p>
+    <form>
+        <div class="centered-div">
+            <div id = "container-central">
+                <div class="form-contact">
+                    <div class = "camp-spart">
+                        <label for="nume">Nume</label>
+                        <input class="buton-1w-1h" type="text" name="nume" id="nume" required>
+                    </div>
+                    <div class = "camp-spart">
+                        <label for="email">Email</label>
+                        <input class="buton-1w-1h" type="text" name="email" id="email" required>
+                    </div>
+                </div>
+                <div class="form-contact">
+                    <div class = "camp-spart">
+                        <label for="prenume">Prenume</label>
+                        <input class="buton-1w-1h" type="text" name="prenume" id="prenume" required>
+                    </div>
+                    <div class = "camp-spart">
+                        <label for="telefon">Telefon</label>
+                        <input class="buton-1w-1h" type="text" name="telefon" id="telefon">
+                    </div> 
+                </div>
+                <div style="text-align: center;">
+                    <div class="camp-simplu">
+                        <label for="adresa">Adresa</label>
+                        <br>
+                        <input class="buton-2w-1h" type="text" name="adresa" id="adresa">
+                    </div>
+                    <br>
+                    <div class="camp-simplu">
+                        <label for="mesaj">Mesaj</label>
+                        <br>
+                        <input class="buton-2w-2h" type="text" name="mesaj" id="mesaj" required>
+                    </div>
+                </div>
+                <div id="mesaj-trimis" class="fundal-gray-800"></div>
+                <div style = "text-align: center;">
+                    <button class="buton-contact" onclick="contact()">Trimite</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+    <script src="./scripturi/contact.js"></script>
+</body>
+</html>
